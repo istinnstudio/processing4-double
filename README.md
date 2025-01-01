@@ -1,0 +1,4 @@
+This is a quick and experimental modification of the Processing core to support double-precision coordinates across fundamental classes like PShape, PVector, and others.
+Note: This change may introduce issues with color/styling as many float values have been converted to double including some objects that should not. Initial testing in a pure Java IDE using PApplet has shown promising results using casting, suggesting compatibility with existing code with minimal adjustments.
+The original Processing framework supports only float precision for coordinates, which can lead to rounding errors in high-precision calculations. This modification aims to address those limitations.
+Warning: Use with caution. This is based on Processing version 4.3.2 from the repository at https://github.com/processing/processing4.
