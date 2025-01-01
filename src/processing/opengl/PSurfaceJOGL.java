@@ -24,6 +24,8 @@
 
 package processing.opengl;
 
+//import com.jogamp.common.util.IOUtil;
+//import com.jogamp.common.util.IOUtil.ClassResources;
 import com.jogamp.nativewindow.MutableGraphicsConfiguration;
 import com.jogamp.nativewindow.NativeSurface;
 import com.jogamp.nativewindow.ScalableSurface;
