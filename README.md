@@ -9,6 +9,7 @@ So only one data type will be included here, "double" that replaces float.
 Initial testing in a pure Java IDE, using PApplet, has shown promising results using casting, suggesting compatibility with existing code with minimal adjustments.
 The original Processing framework supports only float precision for coordinates, which can lead to rounding errors in high-precision calculations. This modification aims to address those limitations.
 
+OpenGL renderers (P2D, P3D) could have issues. Not tested. JAVA2D renderer looks fine.
 
 A real life use case could be if processing classes will be used for spatial calculations alongside with other spatial data structures that support double precision coordinates like native Path2D.Double and JavaTopologySuite (JTS) https://github.com/locationtech/jts.
 Other than that, rendering of very detailed objects should now be possible using a Java IDE.
