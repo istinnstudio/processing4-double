@@ -11,7 +11,7 @@ The original Processing framework supports only float precision for coordinates,
 
 OpenGL renderers (P2D, P3D) could have issues. Not tested. JAVA2D renderer looks fine.
 
-A real life use case could be if processing classes will be used for spatial calculations alongside with other spatial data structures that support double precision coordinates like native Path2D.Double and JavaTopologySuite (JTS) https://github.com/locationtech/jts.
+A real life use case could be if processing classes will be used for spatial calculations alongside with other spatial data structures that support double precision coordinates like native Path2D.Double and JavaTopologySuite (JTS) https://github.com/locationtech/jts. Includes a file with the Processing Geometry Suite PGS 2.0 library converted to double precision https://github.com/micycle1/PGS
 Other than that, rendering of very detailed objects should now be possible using a Java IDE.
 An article about the float precision artifacts in processing is here: https://blog.generativedarkroom.com/why-i-switched-from-processing-to-openrndr-b50c931d21ae
 
