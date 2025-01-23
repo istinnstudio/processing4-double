@@ -1,4 +1,4 @@
-An experimental version of Processing 4 core library that supports double precision coordinates
+An experimental version of Processing 4 https://github.com/processing/processing4 core library that supports double precision coordinates
 
 This is a quick and experimental modification of the Processing core library to support double-precision coordinates across all fundamental classes like PShape, PVector, and others.
 This modification does not include the Processing special sketch IDE, should only be used separatelly as a library on a standalone IDE like NetBeans.
